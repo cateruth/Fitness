@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+/* 
+        Author: Caitlin Gerard
+        Date: 06/23/2024
+        Assignment Name: Fit for Fun Fitness
+        Filename: style.css
+*/
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-size: 10px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 8px;
+    font-style: italic;
+}
+h5 {
+    font-size: large;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 10px solid white;
+    width: 60%;
+    margin-left: 70px;
+}
+.container2 {
+    color: #000;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    font-size: large;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+table.schedule {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 10px solid white;
+    border-collapse: collapse;
+    font-size: 0.75em;
+    width: 65%;
+    margin: 0px 0px 0px 70px;
+    text-align: center;
+    table-layout: fixed;
+}
+
+th,
+td,
+tr {
+    border: 1px black solid;
+    padding: 2px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+/* Images used */
+.img1 {
+    background-image: url("boxing.png");
+}
+
+.img2 {
+    background-image: url("weights.png");
+}
+
+.img3 {
+    background-image: url("cycle.png");
+}
+
+.img4 {
+    background-image: url("yoga.png");
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+.header a {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px solid #f1f1f1;
+    margin: 8px;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+.header-right {
+    float: right;
+    margin: 8px;
+    padding: 8px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: right;
+}

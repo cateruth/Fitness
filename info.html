@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+        Author: Caitlin Gerard
+        Date: 06/23/2024
+        Assignment Name: Fit for Fun Fitness
+        Filename: info.html
+         -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LIMITLESS GYM | Info</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header-right">
+                <a href="index.html">HOME</a>
+                <a href="classes.html">CLASSES</a>
+                <a class="active" href="info.html">INFO</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <form method="get" action="thankyou.html">
+            <br>
+            <h1>LIMITLESS CLASS SIGN UP</h1>
+            <fieldset id="contactInfo">
+                <legend>
+                    Contact Information
+                </legend>
+                <label for="fname">
+                    First Name:
+                    <input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+                </label>
+                <label for="lname">
+                    Last Name:
+                    <input type="text" name="lname" id="lname" required placeholder="Last Name" />
+                </label>
+                <br>
+                <br>
+                <label for="email">
+                    Email:
+                    <input type="email" name="email" id="email" required placeholder="Email" />
+                </label>
+                <label for="phone">
+                    Phone:
+                    <input type="tel" name="phone" id="phone" required placeholder="Phone" />
+                </label>
+                <label for="contactType">Best Way to Reach:</label>
+                <select name="bestContact" id="contactType">
+                    <option value="email">Email</option>
+                    <option value="text">Text</option>
+                    <option value="phone call">Phone Call</option>
+                    <option value="owl">Owl</option>
+                    <option value="pigeon">Carrier Pigeon</option>
+                </select>
+            </fieldset>
+            <fieldset id="classes">
+                <legend>Classes</legend>
+                <input name="cross" id="class1" value="yes" type="checkbox" />
+                <label for="class1">Cross Training</label>
+                <input name="sprint" id="class2" value="yes" type="checkbox" />
+                <label for="class2">Sprint</label>
+                <input name="spin" id="class3" value="yes" type="checkbox" />
+                <label for="class3">Spin</label>
+                <input name="BodyPump" id="class4" value="yes" type="checkbox" />
+                <label for="class4">BodyPump</label>
+                <input name="BodyCombat" id="class5" value="yes" type="checkbox" />
+                <label for="class5">BodyCombat</label>
+                <br>
+                <input name="step" id="class6" value="yes" type="checkbox" />
+                <label for="class6">Step</label>
+                <input name="adCross" id="class7" value="yes" type="checkbox" />
+                <label for="class7">Advanced Cross Training</label>
+                <input name="mixx" id="class8" value="yes" type="checkbox" />
+                <label for="class8">MixxedFIT</label>
+                <input name="zumba" id="class9" value="yes" type="checkbox" />
+                <label for="class9">Zumba</label>
+            </fieldset>
+            <fieldset id="time">
+                <input name="time" id="AM" value="am" type="radio" />
+                <label for="AM">AM</label>
+                <input name="time" id="PM" value="pm" type="radio" />
+                <label for="PM">PM</label>
+            </fieldset>
+            <fieldset id="addInfo">
+                <legend>Additional Info</legend>
+                <textarea name="info" placeholder="Any Additional Info"></textarea>
+            </fieldset>
+            <input class="submit" type="submit" value="Submit" />
+        </form>
+    </div>
+    <footer>
+        &copy; 2024 LIMITLESS FITNESS
+    </footer>
+</body>
+
+</html>
